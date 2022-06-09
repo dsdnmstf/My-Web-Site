@@ -102,11 +102,15 @@
   width: 100%;
   border-bottom: 5px solid rgba(255, 255, 0, 0.918);
   cursor: pointer;
+  opacity: 0.8;
+}
+.projects__item:hover {
+  opacity: 1;
 }
 .projects__item .project_name {
   font-weight: 400;
   margin: 1rem auto;
-  color: #24b5ee;
+  color: rgba(255, 255, 0, 0.918);
   font-weight: 700;
 }
 .projects__item .img-div {

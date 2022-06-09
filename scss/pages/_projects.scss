@@ -30,10 +30,14 @@
     width: 100%;
     border-bottom: 5px solid $secondary-color;
     cursor: pointer;
+    opacity: 0.8;
+    &:hover {
+      opacity: 1;
+    }
     .project_name {
       font-weight: 400;
       margin: 1rem auto;
-      color: #24b5ee;
+      color: $secondary-color;
       font-weight: 700;
     }
 
