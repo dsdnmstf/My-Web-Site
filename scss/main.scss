@@ -24,10 +24,6 @@ a {
   text-decoration: none;
   color: $text-color;
 }
-a:hover {
-  // font-weight: bold;
-  font-size: larger;
-}
 
 //* Headings
 h1,
@@ -35,6 +31,7 @@ h2,
 h3 {
   font-weight: 400;
 }
+
 .home h1 {
   margin-top: 1rem;
   font-family: "Sedgwick Ave";
@@ -53,7 +50,7 @@ h3 {
   color: blue;
 }
 .instagram {
-  pading: 0;
+  padding: 0;
   text-align: center;
   width: 32px;
   height: 32px;
